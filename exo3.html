@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo3</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>CIVILITE</legend>
+            <p>
+                <label for="nom">*nom : </label><input type="text" name="nom" id="nom" required>
+                <label for="prenom">*prenom : </label><input type="text" name="prenom" id="prenom" required>
+            </p>
+            <p>
+                <label for="sexe">*sexe : </label><input type="radio" name="sexe" id="" value="H">masculin
+                <input type="radio" name="sexe" id="" value="F">feminin
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>NAISSANCE ET LIEU DE RESIDENCE</legend>
+            <p>
+                <label for="adresse">*Adresse : </label><input type="text" id="adresse" name="adresse" required><br>
+                <label for="code">*code postal : </label><input type="code" name="code_postal" id="code" required>
+                <label for="ville">*ville : </label><input type="text" name="" id="ville" name="ville" required>
+            </p>
+            <p>
+                <label for="date_naiss">*Date de naissance : </label><input type="date" name="date_naiss" id="date_naiss" required>
+                <label for="lieu_naiss">*Lieu de naissance : </label><input type="text" name="lieu_naiss" id="lieu_naiss" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>DIVERS</legend>
+            <p>
+                <label for="infocom">Information complementaire</label><br>
+                <textarea name="infocom" id="infocom" cols="50" rows="10" placeholder="Allergie du patient , antécédants médicaux..."></textarea>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" name="btn_valider" id="" value="Enregistrer">
+            <input type="reset" name="btn_effacer" id="" value="Effacer">
+        </p>
+    </form>
+</body>
+</html>
